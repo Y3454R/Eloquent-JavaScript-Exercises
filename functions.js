@@ -3,7 +3,7 @@ const f = function(a) {
     console.log(a + 2);
 };
   
-  // Declare g to be a function
+// Declare g to be a function
 function g(a, b) {
     return a * b * 3.5;
 }
@@ -17,7 +17,7 @@ const square2 = x => x * x;
 
 const horn = () => {
     console.log("Toot");
-  };
+};
 
 
 // optional arguments
@@ -42,6 +42,7 @@ console.log(power(4));
 console.log(power(2,10));
 
 // closure
+// https://youtu.be/9acXwUkddZI
 
 function wrapValue(n) {
     let local = n;
