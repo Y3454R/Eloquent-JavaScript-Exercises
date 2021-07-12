@@ -46,8 +46,6 @@ function myDeepEqual(object1, object2) {
 }
 
 
-// Your code here.
-
 let obj = {here: {is: "an"}, object: 2};
 console.log(myDeepEqual(obj, obj));
 // → true
